@@ -1,6 +1,8 @@
 # sample_idm
 
-A new Flutter project.
+IDm(ID管理)のサンプルProject.
+
+Flutter x Firebase で ISO/IEC 24760-1:2019 で定められている ID 管理について学習する.
 
 ## Getting Started
 
