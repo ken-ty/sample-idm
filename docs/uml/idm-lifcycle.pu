@@ -1,0 +1,26 @@
+@startuml ISO/IEC24760のIDライフサイクル
+
+'define State
+(unknown)
+note right : 未登録状態/退会状態(物理削除)
+(established)
+note right : 仮登録状態
+(active)
+note left : 本登録状態
+(suspended)
+note left : 一時凍結状態
+(archived)
+note right : 退会状態(論理削除)
+
+unknown --> established: enrolment
+established --> active: activation
+active --> established: Identity adjustement
+active --> suspended: suspension
+active --> active: maintenance
+active --> archived: archive
+active --> unknown: delete
+suspended --> active: reactivation
+archived --> established: enrolment/restore
+archived --> unknown: delete
+
+@enduml
