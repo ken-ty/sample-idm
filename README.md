@@ -6,13 +6,10 @@ Flutter x Firebase で ISO/IEC 24760-1:2019 で定められている ID 管理�
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+前提: Flutter 開発の環境構築が一通りできていること
 
-A few resources to get you started if this is your first Flutter project:
+推奨環境:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| 名前 | バージョン | 備考 |
+| --- | --- | --- |
+| Flutter | 3.10.6 | fvm や asdf でバージョンを選択できる |
