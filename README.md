@@ -18,4 +18,4 @@ Flutter x Firebase で ISO/IEC 24760-1:2019 で定められている ID 管理�
 
 | コマンド | 説明 |
 | --- | --- |
-| `flutterfire configure --project=sample-idm-6a0f0` | firebase 設定最新化 |
+| `flutterfire configure --project=sample-idm-6a0f0` | firebase 設定最新化 || `open ios/Runner.xcworkspace/` | Xcode で開く |
