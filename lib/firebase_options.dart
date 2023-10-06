@@ -70,6 +70,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '355551553929',
     projectId: 'sample-idm-6a0f0',
     storageBucket: 'sample-idm-6a0f0.appspot.com',
+    iosClientId: '355551553929-uq2f6m0cgqt9rc9032d70kl89btnhdcn.apps.googleusercontent.com',
     iosBundleId: 'com.example.sampleIdm',
   );
 }
